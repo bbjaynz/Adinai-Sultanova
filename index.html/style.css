@@ -1,0 +1,133 @@
+  body {
+      margin: 0;
+      padding-left: inherit;
+      margin-left: 200px 20px;
+      font-family: myriad pro;
+
+  }
+
+  .header {
+      overflow: hidden;
+      background-color:#010551;
+      opacity: 0.94;
+      top: 0;
+      position: fixed;
+      width: 100%;
+  }
+
+  .header a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      font-family: Roboto:sans-serif;
+      padding: 11px 20px 12px;
+      text-decoration: none;
+      font-size: 18px;
+  }
+
+  .header a:hover {
+      background-color: white;
+      color: blueviolet;
+  }
+
+  .main {
+      padding: 16px;
+      margin-top: 30px;
+      height: 20px;
+  }
+
+  .about-me {
+      text-align: center;
+      background-color: navy;
+      padding: 60px;
+      color: white;
+  }
+.p {
+    font-size: 10px;
+}
+
+  h2.title {
+      font-size: 30px;
+      font-weight: 300;
+      padding-bottom: 70px;
+      text-align: center;
+      text-transform: uppercase;
+      color: navy;
+      position: relative;
+      letter-spacing: .5px;
+  }
+
+  #projects {
+      margin-top: 20px;
+  }
+
+  .projects {
+      float: left;
+      width: 100%;
+      padding: 80px 0px;
+  }
+
+  h1 {
+      font-size: 30px;
+      font-weight: 500;
+      margin: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      position: relative;
+      letter-spacing: .5px;
+  }
+project-title{  font-size: 30px;
+      font-weight: 500;
+      margin: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      color: navy;
+      
+  ;
+}
+
+  .row,
+  .row > .line{
+      padding: 100px;
+      height: 20%;
+      width: 80%;
+}
+  .line {
+      width: 15%;
+      line-height: %;
+  }
+
+  .row:after {
+      content: '';
+      display:grid;
+      grid: 100px;
+      clear: both;
+  }
+
+  .content {
+      background-color: white;
+      padding: 10px;
+  }
+
+ h2 {
+      font-size: 30px;
+      font-weight: 500;
+      margin: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      color: navy;
+      position: relative;
+}
+footer{
+    background-color: navy;
+    padding: 30px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
